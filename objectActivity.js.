@@ -1,0 +1,13 @@
+let car = {
+  type: "Car",
+  model: "Camry",
+  color: "Red",
+};
+
+console.log(typeof car);
+
+car.type = "Toyota";
+console.log("Toyota");
+
+car.wheels = 4;
+console.log("Toyota");
